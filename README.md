@@ -69,7 +69,11 @@ cd \path\to\location\ds6001environment
 ```
 where you need to replace `\path\to\location\` with the appropriate folder address for your system. 
 
-**Step 3**: Make sure the Docker desktop client is running, and type
+**Step 3**: Make sure the Docker desktop client is running, and get the latest versions of each container by typing
+```
+docker compose pull
+```
+Then type 
 ```
 docker compose up
 ```
