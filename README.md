@@ -36,6 +36,7 @@ MYSQL_ROOT_PASSWORD=password3
 mongo_init_db=mongodb
 MYSQL_DATABASE=db
 MONGO_INITDB_ROOT_USERNAME=mongo
+MYSQL_ROOT_HOST=%
 ```
 On the first three lines, change `password1`, `password2`, and `password3` to anything you like (but please do not use the @ symbol as that causes problems for some packages). Leave the 4th, 5th, and 6th lines alone. Then SAVE the .env file.
 
